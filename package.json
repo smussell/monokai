@@ -1,7 +1,7 @@
 {
   "name": "sam",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "private": true,
   "description": "Somewhere between freshcut and monokai",
   "repository": {
@@ -18,10 +18,7 @@
     "url": "https://github.com/smussell/sam/issues"
   },
   "homepage": "https://github.com/smussell/sam",
-  "_id": "sam@0.17.0",
-  "_shasum": "ea8a78372538ee4d1d8ffcab7a6a5a971ac29320",
-  "_resolved": "file:../d-11576-16920-ba6mgb/package.tgz",
-  "_from": "../d-11576-16920-ba6mgb/package.tgz",
+  "_id": "sam@0.2.1",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
