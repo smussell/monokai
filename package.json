@@ -1,7 +1,7 @@
 {
   "name": "sam",
   "theme": "syntax",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "private": true,
   "description": "Somewhere between freshcut and monokai",
   "repository": {
