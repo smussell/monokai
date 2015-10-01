@@ -38,6 +38,21 @@
 @syntax-gutter-background-color: lighten(@syntax-background-color, 3%);
 @syntax-gutter-background-color-selected: lighten(@syntax-background-color, 10%);
 
+atom-text-editor::shadow .highlight {
+  &.find-result .region,
+  &.current-result .region,
+  &.current-result ~ .highlight.selection .region {
+    z-index: -1;
+  }
+
+  &.find-result .region {
+  }
+
+  &.current-result .region,
+  &.current-result ~ .highlight.selection .region {
+  }
+}
+
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @light-orange;
 @syntax-color-added: @sea-green;
